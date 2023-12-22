@@ -61,5 +61,5 @@ jobs:
         working-directory: ReproducerApp/ios
 
       - name: Yarn Build iOS
-        run: yarn react-native start
+        run: yarn react-native run-ios
         working-directory: ReproducerApp
